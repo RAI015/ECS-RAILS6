@@ -6,7 +6,7 @@ class PostsController < ApplicationController
     @posts = Post.all
 
     # render json: @posts
-    render html: 'watame ganbare!!'
+    render html: 'watame ganbare!! \n watame night fever!!'
   end
 
   # GET /posts/1
