@@ -1,0 +1,11 @@
+<h1>Posts Index</h1>
+
+<table>
+  <% @posts.each do |post| %>
+    <tr>
+      <td><%= post.title %></td>
+      <td><%= post.created_at %></td>
+      <td><%= post.updated_at %></td>
+    </tr>
+  <% end %>
+</table>
